@@ -1,0 +1,173 @@
+
+body{
+    /* align-items: center; */
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.top-section{
+    background-color: blanchedalmond;
+    width: 100%;
+    height: 50%;
+    justify-content: center;
+    display: flex;
+}
+.left-ts{
+    width: 70%;
+    padding-left: 3rem;
+    padding-top: 1rem;
+    align-items: left;
+}
+.slackDisplayName, .currentTimeUTC, .slackEmail, .hngLink, .keywordLink, .scrapeanywebLink{
+    font-size: 18px;
+    color: rgb(46, 46, 112);
+    display: flex;
+    align-items: center;
+    line-height: 2px;
+}
+.slackDisplayName span, .currentTimeUTC span, .slackEmail span, .hngLink a, .keywordLink a, .scrapeanywebLink a{
+    color: black;
+    font-size: 18px;
+}
+.right-ts{
+    background-color: blanchedalmond;
+    width: 30%;
+    object-fit: cover;
+    display: flex;
+}
+.right-ts img{
+    width: 80%;
+    height: 80%;
+}
+.below-section{
+    background-color: rgb(245, 236, 236);
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-below{
+    color: rgb(46, 46, 112);
+    font-size: 25px;
+    font-weight: bold;
+}
+.content-below{
+    font-size: 20px;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+    body{
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+    padding: 0;
+    }
+    .top-section{
+        background-color: blanchedalmond;
+        width: 100%;
+        height: 40%;
+        justify-content: center;
+        display: flex;
+    }
+    .left-ts{
+        width: 50%;
+        padding-left: 3rem;
+        padding-top: 1rem;
+        align-items: left;
+    }
+    .slackDisplayName, .currentTimeUTC, .slackEmail{
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(46, 46, 112);
+    }
+    .slackDisplayName span, .currentTimeUTC span, .slackEmail span{
+        color: black;
+        font-size: 20px;
+    }
+    .right-ts{
+        background-color: blanchedalmond;
+        width: 50%;
+    }
+    .below-section{
+        background-color: rgb(245, 236, 236);
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-below{
+        color: rgb(46, 46, 112);
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .content-below{
+        font-size: 10px;
+    }
+    
+}
+
+
+@media(max-width: 320px) {
+    body{
+        background-color: white;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+    .top-section{
+        background-color: blanchedalmond;
+        width: 90%;
+        height: 40%;
+        justify-content: center;
+        display: flex;
+    }
+    .left-ts{
+        width: 50%;
+        padding-left: 3rem;
+        padding-top: 1rem;
+        align-items: left;
+    }
+    .slackDisplayName, .currentTimeUTC, .slackEmail{
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(46, 46, 112);
+    }
+    .slackDisplayName span, .currentTimeUTC span, .slackEmail span{
+        color: black;
+        font-size: 20px;
+    }
+    .right-ts{
+        background-color: blanchedalmond;
+        width: 50%;
+    }
+    .below-section{
+        background-color: rgb(245, 236, 236);
+        width: 90%;
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .header-below{
+        color: rgb(46, 46, 112);
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .content-below{
+        font-size: 20px;
+    }
+    
+}
